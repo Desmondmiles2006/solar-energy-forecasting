@@ -5,3 +5,8 @@ venv/
 .ipynb_checkpoints/
 # readings logged from your own panel (add them deliberately if you want them in the repo)
 data/solar_data.csv
+
+# Claude Code files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
