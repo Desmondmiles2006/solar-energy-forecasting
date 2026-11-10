@@ -1,0 +1,20 @@
+{
+  "rows_downloaded": 672,
+  "duplicate_hours_removed": 0,
+  "missing_hours_inserted": 0,
+  "sentinel_-999_by_column": {
+    "clearness_kt": 308
+  },
+  "sentinel_-999_at_night_clearness": 308,
+  "out_of_range_set_to_nan": {},
+  "irradiance_above_clearsky_set_to_nan": 0,
+  "hours_imputed": 0,
+  "days_dropped": [],
+  "rows_clean": 672,
+  "days_clean": 28,
+  "period": [
+    "2026-08-03",
+    "2026-08-30"
+  ],
+  "source_file": "nasa_power_hourly_tiruchirappalli_20260803_20260830.csv"
+}

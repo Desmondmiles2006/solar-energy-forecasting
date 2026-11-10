@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+# readings logged from your own panel (add them deliberately if you want them in the repo)
+data/solar_data.csv

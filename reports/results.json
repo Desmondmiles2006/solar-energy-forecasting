@@ -1,0 +1,710 @@
+{
+  "site": "Tiruchirappalli",
+  "lat": 10.7905,
+  "lon": 78.7047,
+  "period": [
+    "2026-08-03",
+    "2026-08-30"
+  ],
+  "days": 28,
+  "hours": 672,
+  "panel_w": 5.0,
+  "quality": {
+    "rows_downloaded": 672,
+    "duplicate_hours_removed": 0,
+    "missing_hours_inserted": 0,
+    "sentinel_-999_by_column": {
+      "clearness_kt": 308
+    },
+    "sentinel_-999_at_night_clearness": 308,
+    "out_of_range_set_to_nan": {},
+    "irradiance_above_clearsky_set_to_nan": 0,
+    "hours_imputed": 0,
+    "days_dropped": [],
+    "rows_clean": 672,
+    "days_clean": 28,
+    "period": [
+      "2026-08-03",
+      "2026-08-30"
+    ],
+    "source_file": "nasa_power_hourly_tiruchirappalli_20260803_20260830.csv"
+  },
+  "extended_quality": {
+    "rows_downloaded": 5808,
+    "duplicate_hours_removed": 0,
+    "missing_hours_inserted": 0,
+    "sentinel_-999_by_column": {
+      "clearness_kt": 2759
+    },
+    "sentinel_-999_at_night_clearness": 2759,
+    "out_of_range_set_to_nan": {
+      "precip_mm": {
+        "count": 5,
+        "values": [
+          990.0
+        ]
+      }
+    },
+    "irradiance_above_clearsky_set_to_nan": 0,
+    "hours_imputed": 5,
+    "days_dropped": [],
+    "rows_clean": 5808,
+    "days_clean": 242,
+    "period": [
+      "2026-01-01",
+      "2026-08-30"
+    ],
+    "source_file": "nasa_power_hourly_tiruchirappalli_20260101_20260830_extended.csv"
+  },
+  "energy": {
+    "total_Wh": 632.69237,
+    "mean_Wh": 22.59615607142857,
+    "median_Wh": 23.454245,
+    "std_Wh": 2.7294676384413883,
+    "min_Wh": 16.45518,
+    "min_day": "2026-08-07",
+    "max_Wh": 26.34479,
+    "max_day": "2026-08-18",
+    "peak_W": 3.65328,
+    "peak_time": "2026-08-16 11:00",
+    "capacity_factor_pct": 18.83013005952381,
+    "mean_irradiation_kWh_m2": 5.689308571428571,
+    "mean_clearness": 0.8255699339017207,
+    "mean_cloud_pct": 72.89695054945055,
+    "total_rain_mm": 80.53999999999999,
+    "days_below_20Wh": 5
+  },
+  "describe": [
+    {
+      "variable": "energy_Wh",
+      "count": 28.0,
+      "mean": 22.596,
+      "std": 2.729,
+      "min": 16.455,
+      "25%": 21.225,
+      "50%": 23.454,
+      "75%": 24.208,
+      "max": 26.345,
+      "cv_%": 12.079
+    },
+    {
+      "variable": "peak_W",
+      "count": 28.0,
+      "mean": 3.202,
+      "std": 0.376,
+      "min": 2.326,
+      "25%": 3.078,
+      "50%": 3.325,
+      "75%": 3.444,
+      "max": 3.653,
+      "cv_%": 11.744
+    },
+    {
+      "variable": "sun_hours",
+      "count": 28.0,
+      "mean": 10.25,
+      "std": 0.518,
+      "min": 9.0,
+      "25%": 10.0,
+      "50%": 10.0,
+      "75%": 11.0,
+      "max": 11.0,
+      "cv_%": 5.055
+    },
+    {
+      "variable": "irradiation_kWh_m2",
+      "count": 28.0,
+      "mean": 5.689,
+      "std": 0.758,
+      "min": 4.007,
+      "25%": 5.321,
+      "50%": 5.925,
+      "75%": 6.135,
+      "max": 6.787,
+      "cv_%": 13.326
+    },
+    {
+      "variable": "clearness",
+      "count": 28.0,
+      "mean": 0.826,
+      "std": 0.1,
+      "min": 0.606,
+      "25%": 0.778,
+      "50%": 0.863,
+      "75%": 0.89,
+      "max": 0.956,
+      "cv_%": 12.155
+    },
+    {
+      "variable": "cloud_pct",
+      "count": 28.0,
+      "mean": 72.897,
+      "std": 20.604,
+      "min": 31.976,
+      "25%": 58.513,
+      "50%": 72.797,
+      "75%": 93.601,
+      "max": 99.392,
+      "cv_%": 28.264
+    },
+    {
+      "variable": "precip_mm",
+      "count": 28.0,
+      "mean": 2.876,
+      "std": 4.889,
+      "min": 0.0,
+      "25%": 0.085,
+      "50%": 1.285,
+      "75%": 3.015,
+      "max": 22.5,
+      "cv_%": 169.969
+    },
+    {
+      "variable": "avg_temp_C",
+      "count": 28.0,
+      "mean": 30.061,
+      "std": 0.585,
+      "min": 28.998,
+      "25%": 29.664,
+      "50%": 30.048,
+      "75%": 30.528,
+      "max": 31.346,
+      "cv_%": 1.946
+    },
+    {
+      "variable": "humidity_pct",
+      "count": 28.0,
+      "mean": 62.113,
+      "std": 3.05,
+      "min": 57.254,
+      "25%": 60.254,
+      "50%": 61.386,
+      "75%": 63.881,
+      "max": 69.209,
+      "cv_%": 4.91
+    }
+  ],
+  "corr_with_energy": {
+    "cloud_pct": -0.842,
+    "clearness": 0.992,
+    "precip_mm": -0.105,
+    "avg_temp_C": 0.55,
+    "humidity_pct": -0.229,
+    "sun_hours": 0.448
+  },
+  "autocorr": {
+    "lag_1": 0.334,
+    "lag_2": 0.134,
+    "lag_3": 0.104,
+    "lag_4": 0.098,
+    "lag_5": 0.112
+  },
+  "backtest_days": 14,
+  "metrics_base": [
+    {
+      "Model": "Linear Regression",
+      "MAE (Wh)": 1.988,
+      "RMSE (Wh)": 2.674,
+      "MAPE (%)": 9.079,
+      "R\u00b2": -0.393,
+      "Accuracy (%)": 90.921,
+      "Bias (Wh)": 0.06,
+      "Days tested": 14
+    },
+    {
+      "Model": "Moving Average",
+      "MAE (Wh)": 2.172,
+      "RMSE (Wh)": 2.751,
+      "MAPE (%)": 9.935,
+      "R\u00b2": -0.474,
+      "Accuracy (%)": 90.065,
+      "Bias (Wh)": 0.051,
+      "Days tested": 14
+    },
+    {
+      "Model": "Random Forest",
+      "MAE (Wh)": 2.203,
+      "RMSE (Wh)": 2.867,
+      "MAPE (%)": 10.239,
+      "R\u00b2": -0.601,
+      "Accuracy (%)": 89.761,
+      "Bias (Wh)": -0.045,
+      "Days tested": 14
+    },
+    {
+      "Model": "Decision Tree",
+      "MAE (Wh)": 2.569,
+      "RMSE (Wh)": 3.57,
+      "MAPE (%)": 11.963,
+      "R\u00b2": -1.483,
+      "Accuracy (%)": 88.037,
+      "Bias (Wh)": -0.079,
+      "Days tested": 14
+    }
+  ],
+  "metrics_weather": [
+    {
+      "Model": "Decision Tree",
+      "MAE (Wh)": 1.034,
+      "RMSE (Wh)": 1.52,
+      "MAPE (%)": 4.961,
+      "R\u00b2": 0.55,
+      "Accuracy (%)": 95.039,
+      "Bias (Wh)": 0.332,
+      "Days tested": 14
+    },
+    {
+      "Model": "Random Forest",
+      "MAE (Wh)": 1.181,
+      "RMSE (Wh)": 1.607,
+      "MAPE (%)": 5.518,
+      "R\u00b2": 0.497,
+      "Accuracy (%)": 94.482,
+      "Bias (Wh)": 0.185,
+      "Days tested": 14
+    },
+    {
+      "Model": "Linear Regression",
+      "MAE (Wh)": 1.192,
+      "RMSE (Wh)": 1.831,
+      "MAPE (%)": 5.633,
+      "R\u00b2": 0.347,
+      "Accuracy (%)": 94.367,
+      "Bias (Wh)": 0.608,
+      "Days tested": 14
+    },
+    {
+      "Model": "Moving Average",
+      "MAE (Wh)": 2.172,
+      "RMSE (Wh)": 2.751,
+      "MAPE (%)": 9.935,
+      "R\u00b2": -0.474,
+      "Accuracy (%)": 90.065,
+      "Bias (Wh)": 0.051,
+      "Days tested": 14
+    }
+  ],
+  "backtest_base": [
+    {
+      "date": "2026-08-17",
+      "Actual": 23.763,
+      "Moving Average": 24.289,
+      "Linear Regression": 24.837,
+      "Decision Tree": 22.411,
+      "Random Forest": 22.922
+    },
+    {
+      "date": "2026-08-18",
+      "Actual": 26.345,
+      "Moving Average": 24.184,
+      "Linear Regression": 24.391,
+      "Decision Tree": 25.056,
+      "Random Forest": 24.249
+    },
+    {
+      "date": "2026-08-19",
+      "Actual": 23.351,
+      "Moving Average": 25.378,
+      "Linear Regression": 24.057,
+      "Decision Tree": 26.186,
+      "Random Forest": 24.102
+    },
+    {
+      "date": "2026-08-20",
+      "Actual": 20.614,
+      "Moving Average": 24.486,
+      "Linear Regression": 24.186,
+      "Decision Tree": 26.186,
+      "Random Forest": 24.708
+    },
+    {
+      "date": "2026-08-21",
+      "Actual": 25.859,
+      "Moving Average": 23.437,
+      "Linear Regression": 20.665,
+      "Decision Tree": 25.811,
+      "Random Forest": 23.15
+    },
+    {
+      "date": "2026-08-22",
+      "Actual": 23.992,
+      "Moving Average": 23.275,
+      "Linear Regression": 23.418,
+      "Decision Tree": 21.337,
+      "Random Forest": 22.976
+    },
+    {
+      "date": "2026-08-23",
+      "Actual": 23.778,
+      "Moving Average": 23.488,
+      "Linear Regression": 23.96,
+      "Decision Tree": 23.892,
+      "Random Forest": 24.761
+    },
+    {
+      "date": "2026-08-24",
+      "Actual": 21.24,
+      "Moving Average": 24.543,
+      "Linear Regression": 24.068,
+      "Decision Tree": 21.337,
+      "Random Forest": 22.78
+    },
+    {
+      "date": "2026-08-25",
+      "Actual": 17.231,
+      "Moving Average": 23.004,
+      "Linear Regression": 23.173,
+      "Decision Tree": 25.823,
+      "Random Forest": 24.968
+    },
+    {
+      "date": "2026-08-26",
+      "Actual": 21.941,
+      "Moving Average": 20.75,
+      "Linear Regression": 21.654,
+      "Decision Tree": 19.235,
+      "Random Forest": 20.322
+    },
+    {
+      "date": "2026-08-27",
+      "Actual": 24.755,
+      "Moving Average": 20.137,
+      "Linear Regression": 22.109,
+      "Decision Tree": 20.137,
+      "Random Forest": 21.582
+    },
+    {
+      "date": "2026-08-28",
+      "Actual": 24.159,
+      "Moving Average": 21.309,
+      "Linear Regression": 22.524,
+      "Decision Tree": 23.359,
+      "Random Forest": 21.812
+    },
+    {
+      "date": "2026-08-29",
+      "Actual": 23.558,
+      "Moving Average": 23.618,
+      "Linear Regression": 23.589,
+      "Decision Tree": 23.775,
+      "Random Forest": 23.312
+    },
+    {
+      "date": "2026-08-30",
+      "Actual": 24.76,
+      "Moving Average": 24.157,
+      "Linear Regression": 23.553,
+      "Decision Tree": 19.695,
+      "Random Forest": 23.074
+    }
+  ],
+  "backtest_weather": [
+    {
+      "date": "2026-08-17",
+      "Actual": 23.763,
+      "Moving Average": 24.289,
+      "Linear Regression": 23.865,
+      "Decision Tree": 22.411,
+      "Random Forest": 22.626
+    },
+    {
+      "date": "2026-08-18",
+      "Actual": 26.345,
+      "Moving Average": 24.184,
+      "Linear Regression": 27.233,
+      "Decision Tree": 25.544,
+      "Random Forest": 24.593
+    },
+    {
+      "date": "2026-08-19",
+      "Actual": 23.351,
+      "Moving Average": 25.378,
+      "Linear Regression": 24.144,
+      "Decision Tree": 23.733,
+      "Random Forest": 23.987
+    },
+    {
+      "date": "2026-08-20",
+      "Actual": 20.614,
+      "Moving Average": 24.486,
+      "Linear Regression": 21.445,
+      "Decision Tree": 22.411,
+      "Random Forest": 22.311
+    },
+    {
+      "date": "2026-08-21",
+      "Actual": 25.859,
+      "Moving Average": 23.437,
+      "Linear Regression": 23.311,
+      "Decision Tree": 26.186,
+      "Random Forest": 24.663
+    },
+    {
+      "date": "2026-08-22",
+      "Actual": 23.992,
+      "Moving Average": 23.275,
+      "Linear Regression": 24.144,
+      "Decision Tree": 23.532,
+      "Random Forest": 23.589
+    },
+    {
+      "date": "2026-08-23",
+      "Actual": 23.778,
+      "Moving Average": 23.488,
+      "Linear Regression": 24.595,
+      "Decision Tree": 23.715,
+      "Random Forest": 24.072
+    },
+    {
+      "date": "2026-08-24",
+      "Actual": 21.24,
+      "Moving Average": 24.543,
+      "Linear Regression": 24.309,
+      "Decision Tree": 21.812,
+      "Random Forest": 21.797
+    },
+    {
+      "date": "2026-08-25",
+      "Actual": 17.231,
+      "Moving Average": 23.004,
+      "Linear Regression": 22.287,
+      "Decision Tree": 21.669,
+      "Random Forest": 21.715
+    },
+    {
+      "date": "2026-08-26",
+      "Actual": 21.941,
+      "Moving Average": 20.75,
+      "Linear Regression": 21.907,
+      "Decision Tree": 23.994,
+      "Random Forest": 23.806
+    },
+    {
+      "date": "2026-08-27",
+      "Actual": 24.755,
+      "Moving Average": 20.137,
+      "Linear Regression": 23.27,
+      "Decision Tree": 23.575,
+      "Random Forest": 23.382
+    },
+    {
+      "date": "2026-08-28",
+      "Actual": 24.159,
+      "Moving Average": 21.309,
+      "Linear Regression": 24.135,
+      "Decision Tree": 24.135,
+      "Random Forest": 24.065
+    },
+    {
+      "date": "2026-08-29",
+      "Actual": 23.558,
+      "Moving Average": 23.618,
+      "Linear Regression": 23.888,
+      "Decision Tree": 23.143,
+      "Random Forest": 23.587
+    },
+    {
+      "date": "2026-08-30",
+      "Actual": 24.76,
+      "Moving Average": 24.157,
+      "Linear Regression": 25.319,
+      "Decision Tree": 24.14,
+      "Random Forest": 23.743
+    }
+  ],
+  "ma_window_sweep": {
+    "1": 2.455,
+    "2": 2.3,
+    "3": 2.172,
+    "4": 2.089,
+    "5": 2.018,
+    "6": 1.923,
+    "7": 1.934
+  },
+  "extended": {
+    "days": 242,
+    "test_days": 28,
+    "metrics_base": [
+      {
+        "Model": "Random Forest",
+        "MAE (Wh)": 2.22,
+        "RMSE (Wh)": 2.815,
+        "MAPE (%)": 10.397,
+        "R\u00b2": -0.103,
+        "Accuracy (%)": 89.603,
+        "Bias (Wh)": -0.22,
+        "Days tested": 28
+      },
+      {
+        "Model": "Moving Average",
+        "MAE (Wh)": 2.291,
+        "RMSE (Wh)": 2.87,
+        "MAPE (%)": 10.581,
+        "R\u00b2": -0.146,
+        "Accuracy (%)": 89.419,
+        "Bias (Wh)": -0.223,
+        "Days tested": 28
+      },
+      {
+        "Model": "Linear Regression",
+        "MAE (Wh)": 2.297,
+        "RMSE (Wh)": 2.738,
+        "MAPE (%)": 10.681,
+        "R\u00b2": -0.043,
+        "Accuracy (%)": 89.319,
+        "Bias (Wh)": -0.139,
+        "Days tested": 28
+      },
+      {
+        "Model": "Decision Tree",
+        "MAE (Wh)": 2.768,
+        "RMSE (Wh)": 3.726,
+        "MAPE (%)": 12.826,
+        "R\u00b2": -0.933,
+        "Accuracy (%)": 87.174,
+        "Bias (Wh)": -0.557,
+        "Days tested": 28
+      }
+    ],
+    "metrics_weather": [
+      {
+        "Model": "Linear Regression",
+        "MAE (Wh)": 0.972,
+        "RMSE (Wh)": 1.3,
+        "MAPE (%)": 4.717,
+        "R\u00b2": 0.765,
+        "Accuracy (%)": 95.283,
+        "Bias (Wh)": 0.218,
+        "Days tested": 28
+      },
+      {
+        "Model": "Random Forest",
+        "MAE (Wh)": 1.176,
+        "RMSE (Wh)": 1.41,
+        "MAPE (%)": 5.499,
+        "R\u00b2": 0.723,
+        "Accuracy (%)": 94.501,
+        "Bias (Wh)": -0.386,
+        "Days tested": 28
+      },
+      {
+        "Model": "Decision Tree",
+        "MAE (Wh)": 1.347,
+        "RMSE (Wh)": 1.736,
+        "MAPE (%)": 6.464,
+        "R\u00b2": 0.581,
+        "Accuracy (%)": 93.536,
+        "Bias (Wh)": 0.001,
+        "Days tested": 28
+      },
+      {
+        "Model": "Moving Average",
+        "MAE (Wh)": 2.291,
+        "RMSE (Wh)": 2.87,
+        "MAPE (%)": 10.581,
+        "R\u00b2": -0.146,
+        "Accuracy (%)": 89.419,
+        "Bias (Wh)": -0.223,
+        "Days tested": 28
+      }
+    ]
+  },
+  "forecast": {
+    "date": "2026-08-31",
+    "best_model": "Linear Regression",
+    "predictions": {
+      "Moving Average": 24.16,
+      "Linear Regression": 24.06,
+      "Decision Tree": 23.57,
+      "Random Forest": 23.2
+    },
+    "rmse": 2.673945058144434,
+    "rf_p10_p90": [
+      21.701489999999996,
+      24.214379999999995
+    ],
+    "best_weather_model": "Decision Tree",
+    "predictions_weather": {
+      "Moving Average": 24.16,
+      "Linear Regression": 25.17,
+      "Decision Tree": 23.19,
+      "Random Forest": 23.75
+    },
+    "weather_cloud_assumed_pct": 63.3,
+    "hourly_W": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.018,
+      0.483,
+      1.332,
+      2.201,
+      2.899,
+      3.259,
+      3.304,
+      3.147,
+      2.774,
+      2.168,
+      1.534,
+      0.78,
+      0.159,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "peak_hour": 11
+  },
+  "feature_importance_weather": {
+    "Random Forest": {
+      "lag_1": 0.021,
+      "lag_2": 0.013,
+      "lag_3": 0.012,
+      "roll_mean_3": 0.034,
+      "roll_mean_7": 0.009,
+      "roll_std_3": 0.013,
+      "peak_lag_1": 0.016,
+      "sun_hours_lag_1": 0.001,
+      "day_index": 0.099,
+      "clearsky_target": 0.084,
+      "cloud_target": 0.698
+    },
+    "Decision Tree": {
+      "lag_1": 0.0,
+      "lag_2": 0.019,
+      "lag_3": 0.0,
+      "roll_mean_3": 0.154,
+      "roll_mean_7": 0.0,
+      "roll_std_3": 0.0,
+      "peak_lag_1": 0.0,
+      "sun_hours_lag_1": 0.0,
+      "day_index": 0.0,
+      "clearsky_target": 0.003,
+      "cloud_target": 0.823
+    },
+    "Linear Regression": {
+      "lag_1": 0.044,
+      "lag_2": 0.05,
+      "lag_3": 0.005,
+      "roll_mean_3": 0.002,
+      "roll_mean_7": 0.008,
+      "roll_std_3": 0.068,
+      "peak_lag_1": 0.054,
+      "sun_hours_lag_1": 0.149,
+      "day_index": 0.05,
+      "clearsky_target": 0.113,
+      "cloud_target": 0.456
+    }
+  },
+  "impact": {
+    "kwp_scale": 200.0,
+    "rooftop_kWh_month": 126.53847400000001,
+    "rooftop_kWh_day": 4.519231214285714,
+    "rooftop_co2_kg_month": 89.84231654,
+    "grid_kg_per_kwh": 0.71
+  }
+}
